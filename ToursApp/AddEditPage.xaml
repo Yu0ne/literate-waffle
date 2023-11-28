@@ -7,8 +7,26 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AddEditPage">
-
     <Grid>
-        <TextBlock Text="Hello!" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30"></TextBlock>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Название"></TextBlock>
+        <TextBlock Text="Количество звезд" Grid.Row="1"></TextBlock>
+        <TextBlock Text="Страна" Grid.Row="2"></TextBlock>
+        <TextBox Text="{Binding Name}" MaxLength="100" Grid.Column="1"></TextBox>
+        <TextBox Text="{Binding CountOfStars}" Grid.Column="1" Grid.Row="1" Width="175" HorizontalAlignment="Left"></TextBox>
+        <ComboBox SelectedItem="{Binding Country}" Grid.Row="2" Grid.Column="1" x:Name="ComboCountries" DisplayMemberPath="Name"></ComboBox>
+
+        <Button Content="Сохранить" Grid.ColumnSpan="2" Grid.Row="3" Name="BtnSave" Click="BtnSave_Click"></Button>
     </Grid>
+
 </Page>

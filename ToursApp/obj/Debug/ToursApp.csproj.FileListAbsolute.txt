@@ -18,3 +18,10 @@ C:\Users\Khanda\source\repos\ToursApp\ToursApp\obj\Debug\ToursApp.csproj.CoreCom
 C:\Users\Khanda\source\repos\ToursApp\ToursApp\obj\Debug\ToursApp.exe
 C:\Users\Khanda\source\repos\ToursApp\ToursApp\obj\Debug\ToursApp.pdb
 C:\Users\Khanda\source\repos\ToursApp\ToursApp\obj\Debug\App.baml
+C:\Users\Khanda\source\repos\ToursApp\ToursApp\obj\Debug\ToursApp_Content.g.cs
+C:\Users\Khanda\source\repos\ToursApp\ToursApp\bin\Debug\EntityFramework.dll
+C:\Users\Khanda\source\repos\ToursApp\ToursApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Khanda\source\repos\ToursApp\ToursApp\bin\Debug\EntityFramework.xml
+C:\Users\Khanda\source\repos\ToursApp\ToursApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Khanda\source\repos\ToursApp\ToursApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Khanda\source\repos\ToursApp\ToursApp\obj\Debug\ToursApp.csproj.CopyComplete
